@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--[if lt IE 10]> <html  lang="en" class="iex"> <![endif]-->
+<!--[if (gt IE 10)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }}</title>
+    <meta name="description" content="Multipurpose HTML template.">
+    <link rel="stylesheet" href="{{site.baseurl}}/HTWF/scripts/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/HTWF/style.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/HTWF/css/content-box.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/HTWF/css/image-box.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/HTWF/css/animations.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/HTWF/css/components.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/HTWF/scripts/flexslider/flexslider.css">
+    <link rel="icon" href="{{site.baseurl}}/images/favicon.png">
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/skin.css">
+      
+    {% feed_meta %}
+    {% seo %}
+  </head>
+  <body>
+    {% include navigation.html %}
+    {{ content }}
+
+
+
+
+    <footer class="bg-white">
+      <div class="content">
+          <div class="row copy-row">
+              <div class="col-md-12 copy-text">
+                  © <script>document.write(new Date().getFullYear())</script> MEGA PRO CCC Done by <a href="https://www.linkedin.com/in/khames-shieba-24862635/">khames Shieba</a>
+              </div>
+          </div>
+      </div>
+      <script src="{{site.baseurl}}/HTWF/scripts/jquery.min.js"></script>
+      <script src="{{site.baseurl}}/HTWF/scripts/parallax.min.js"></script>
+      <script src="{{site.baseurl}}/HTWF/scripts/script.js"></script>
+      <script src="{{site.baseurl}}/HTWF/scripts/flexslider/jquery.flexslider-min.js"></script>
+      <link rel="stylesheet" href="{{site.baseurl}}/HTWF/scripts/iconsmind/line-icons.min.css">
+      <script src="{{site.baseurl}}/HTWF/scripts/bootstrap/js/bootstrap.min.js"></script>
+      <script src="{{site.baseurl}}/HTWF/scripts/imagesloaded.min.js"></script>
+      <script src="{{site.baseurl}}/HTWF/scripts/jquery.progress-counter.js"></script>
+      <script src="{{site.baseurl}}/HTWF/scripts/jquery.tab-accordion.js"></script>
+      <script src="{{site.baseurl}}/HTWF/scripts/smooth.scroll.min.js"></script>
+  </footer>
+</body>
+</html>
